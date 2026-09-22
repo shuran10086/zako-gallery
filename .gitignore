@@ -1,0 +1,20 @@
+# build outputs
+build/
+*.apk
+*.aab
+
+# gradle
+.gradle/
+local.properties
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# signing material (keep the keystore itself out of any future repo)
+keystore.properties
+*.jks
+*.keystore
+*.p12
+*.pepk
