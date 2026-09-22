@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_black">#000000</color>
+    <color name="pink">#FF3B7A</color>
+    <color name="pink_variant">#FF638F</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="card_bg">#0F1113</color>
+    <color name="surface">#0B0B0D</color>
+    <color name="text_primary">#EDEFF2</color>
+    <color name="text_secondary">#9AA0A8</color>
+    <color name="divider">#22262B</color>
+    <color name="scrim">#99000000</color>
+    <color name="status_ok">#4CD964</color>
+    <color name="status_warn">#FFB83D</color>
+</resources>

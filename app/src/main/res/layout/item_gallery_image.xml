@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/space_xs"
+    app:cardBackgroundColor="@color/card_bg"
+    app:cardCornerRadius="@dimen/corner_item"
+    app:cardElevation="4dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_item"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/gallery_item_height"
+            android:contentDescription="@string/cd_item_preview"
+            android:scaleType="centerCrop" />
+
+        <!-- dimmed overlay shown when the image is disabled -->
+        <View
+            android:id="@+id/scrim_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/gallery_item_height"
+            android:background="@color/scrim" />
+
+        <ImageButton
+            android:id="@+id/btn_delete"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_gravity="top|start"
+            android:layout_margin="@dimen/space_s"
+            android:background="@drawable/bg_badge_circle"
+            android:contentDescription="@string/cd_delete_image"
+            android:padding="@dimen/space_s"
+            android:src="@drawable/ic_delete"
+            app:tint="#FF6B7A" />
+
+        <ImageButton
+            android:id="@+id/btn_toggle"
+            android:layout_width="@dimen/badge_size"
+            android:layout_height="@dimen/badge_size"
+            android:layout_gravity="top|end"
+            android:layout_margin="@dimen/space_s"
+            android:background="@drawable/bg_badge_circle"
+            android:contentDescription="@string/cd_toggle_disable"
+            android:padding="@dimen/space_s"
+            android:src="@drawable/ic_badge_check"
+            app:tint="@color/white" />
+
+    </FrameLayout>
+</com.google.android.material.card.MaterialCardView>

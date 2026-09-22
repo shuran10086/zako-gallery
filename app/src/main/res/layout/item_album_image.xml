@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/space_xs"
+    app:cardBackgroundColor="@color/card_bg"
+    app:cardCornerRadius="@dimen/corner_item"
+    app:cardElevation="4dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_thumb"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/album_thumb_height"
+            android:contentDescription="@string/cd_item_preview"
+            android:scaleType="centerCrop" />
+
+        <!-- dimmed overlay + pink check shown while selected -->
+        <View
+            android:id="@+id/scrim_selected"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/album_thumb_height"
+            android:background="@color/scrim"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/img_check"
+            android:layout_width="@dimen/album_badge_size"
+            android:layout_height="@dimen/album_badge_size"
+            android:layout_gravity="top|end"
+            android:layout_margin="@dimen/space_s"
+            android:background="@drawable/bg_badge_dim"
+            android:contentDescription="@string/cd_item_preview"
+            android:padding="@dimen/space_s"
+            android:src="@drawable/ic_badge_check" />
+
+    </FrameLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">杂鱼图库</string>
+
+    <!-- bottom navigation -->
+    <string name="nav_home">主页</string>
+    <string name="nav_password">密码</string>
+    <string name="nav_settings">设置</string>
+
+    <!-- home page -->
+    <string name="home_subtitle">随机壁纸 · 全屏弹出</string>
+    <string name="wallpaper_switch">自动更换壁纸</string>
+    <string name="popup_switch">启用全屏弹出</string>
+    <string name="lockscreen_switch">同时设置为锁屏壁纸</string>
+    <string name="wallpaper_interval_range">壁纸随机间隔：%1$d - %2$d 分钟</string>
+    <string name="popup_interval_range">随机弹出间隔：%1$d - %2$d 分钟</string>
+    <string name="popup_duration_range">弹出显示时长：%1$d - %2$d 秒</string>
+    <string name="popup_desc">随机间隔 1-60 分钟，弹出时长 3-60 秒（不可关闭）</string>
+    <string name="home_gallery_line">图库：%1$s · 已启用 %2$d / %3$d 张</string>
+    <string name="btn_permissions">权限与自启设置引导</string>
+
+    <!-- settings page -->
+    <string name="settings_gallery_title">图库选择</string>
+    <string name="settings_wallpaper_gallery">更换壁纸使用</string>
+    <string name="settings_popup_gallery">全屏弹出使用</string>
+    <string name="settings_gallery_hint">更换壁纸与全屏弹出可以分别选用不同图库</string>
+    <string name="settings_manage_title">管理</string>
+    <string name="btn_gallery_manage">图库管理</string>
+    <string name="settings_about_title">关于</string>
+    <string name="settings_version">版本：%1$s</string>
+    <string name="settings_about_desc">杂鱼图库 · 随机壁纸与全屏弹出。图库与图片来源可在图库管理中维护。</string>
+
+    <!-- gallery manager -->
+    <string name="gallery_manage_title">图库管理</string>
+    <string name="gallery_list_subtitle">共 %1$d 个图库</string>
+    <string name="gallery_folder_meta">已启用 %1$d / %2$d 张</string>
+    <string name="gallery_count_active">已启用 %1$d / %2$d 张</string>
+    <string name="gallery_tag_builtin">内置</string>
+    <string name="gallery_tag_custom">自建</string>
+    <string name="gallery_new">新建图库</string>
+    <string name="gallery_rename">重命名图库</string>
+    <string name="gallery_delete">删除图库</string>
+    <string name="gallery_delete_confirm">确定删除图库「%1$s」？其中的图片将一并删除，且无法恢复。</string>
+    <string name="gallery_created">图库已创建</string>
+    <string name="gallery_renamed">图库已重命名</string>
+    <string name="gallery_deleted">图库已删除</string>
+    <string name="gallery_name_hint">请输入图库名称</string>
+    <string name="gallery_name_invalid">名称不能为空，也不能与其他图库重复</string>
+    <string name="gallery_default_name">默认图库</string>
+
+    <!-- gallery detail -->
+    <string name="gallery_add_images">添加图片</string>
+    <string name="gallery_enable_all">全部启用</string>
+    <string name="gallery_empty">图库空空如也\n点击下方“添加图片”开始填充</string>
+    <string name="gallery_adding">正在添加图片…</string>
+    <string name="gallery_added">已添加 %1$d 张图片</string>
+    <string name="gallery_add_failed">添加失败，请重试</string>
+    <string name="gallery_delete_image_title">删除图片</string>
+    <string name="gallery_delete_image_confirm">确定删除这张图片？删除后无法恢复。</string>
+    <string name="gallery_seeding">正在初始化默认图库…</string>
+
+    <!-- album browser -->
+    <string name="album_title">选择图片</string>
+    <string name="album_folder_subtitle">共 %1$d 个相册</string>
+    <string name="album_image_subtitle">共 %1$d 张</string>
+    <string name="album_recent">最近添加</string>
+    <string name="album_count">%1$d 张</string>
+    <string name="album_confirm">确认添加（%1$d）</string>
+    <string name="album_confirm_empty">确认添加</string>
+    <string name="album_max_reached">最多可选择 30 张</string>
+    <string name="album_empty">未找到可添加的图片</string>
+    <string name="album_scanning">正在扫描相册…</string>
+    <string name="album_partial_hint">可能只授予了“选择照片”部分权限，导致只能看到部分图片。请到系统设置中改为允许访问所有照片后重试。</string>
+    <string name="album_go_settings">去设置</string>
+    <string name="cd_album_cover">相册封面</string>
+
+    <!-- share import -->
+    <string name="share_choose_gallery">导入到哪个图库？</string>
+    <string name="share_no_images">未找到可导入的图片</string>
+    <string name="share_importing">正在导入…</string>
+
+    <!-- password lock -->
+    <string name="pw_set_title">设置密码</string>
+    <string name="pw_set_desc">密码只能包含英文、数字和 . * $ % 四种符号，设置后可用于锁定主页</string>
+    <string name="pw_new_hint">请输入密码</string>
+    <string name="pw_confirm_hint">请再次输入密码</string>
+    <string name="pw_set_button">设置密码</string>
+    <string name="pw_error_mismatch">两次输入的密码不一致</string>
+    <string name="pw_error_charset">密码只能包含英文、数字和 . * $ %</string>
+    <string name="pw_error_empty">请输入密码</string>
+    <string name="pw_set_done">密码已设置</string>
+    <string name="pw_switch_lock">锁定主页</string>
+    <string name="pw_switch_desc">开启后主页功能与图库设置将被锁定，需输入密码解锁</string>
+    <string name="pw_unlock_title">输入密码解锁</string>
+    <string name="pw_unlock_hint">请输入密码</string>
+    <string name="pw_unlock_button">解锁</string>
+    <string name="pw_error_wrong">密码不正确</string>
+    <string name="pw_unlocked">密码正确，可关闭“锁定主页”</string>
+    <string name="pw_verified_countdown">已验证密码，可关闭“锁定主页”（剩余 %1$d 秒）</string>
+    <string name="toast_lock_locked">当前锁定中，请解锁后重试</string>
+    <string name="home_locked_notice">锁定中</string>
+    <string name="toast_gallery_locked">已锁定，请先到密码页输入密码解锁</string>
+
+    <!-- common -->
+    <string name="cd_back">返回</string>
+    <string name="cd_item_preview">图片预览</string>
+    <string name="cd_toggle_enable">启用该图片</string>
+    <string name="cd_toggle_disable">停用该图片</string>
+    <string name="cd_delete_image">删除该图片</string>
+    <string name="cd_gallery_rename">重命名图库</string>
+    <string name="cd_gallery_delete">删除图库</string>
+
+    <!-- permission guide -->
+    <string name="permission_title">权限与系统设置引导</string>
+    <string name="btn_battery">电池优化白名单设置</string>
+    <string name="btn_overlay">悬浮窗权限（显示在其他应用上方）</string>
+    <string name="btn_app_settings">应用详情（自启/权限）</string>
+    <string name="permission_battery_desc">允许应用在后台持续运行，避免系统清理定时服务</string>
+    <string name="permission_overlay_desc">全屏弹出功能需要“显示在其他应用上层”的权限</string>
+    <string name="permission_overlay_hint">若跳转后找不到本应用，请返回并通过下方“应用详情”进入开启</string>
+    <string name="permission_app_desc">部分厂商系统需要手动开启自启动，服务才能长期存活</string>
+    <string name="btn_go_settings">前往设置</string>
+    <string name="status_granted">已授权</string>
+    <string name="status_not_granted">未授权</string>
+
+    <!-- notifications -->
+    <string name="notif_wallpaper_title">随机壁纸服务运行中</string>
+    <string name="notif_wallpaper_text">会在后台随机更换壁纸</string>
+    <string name="notif_popup_title">全屏弹出服务运行中</string>
+    <string name="notif_popup_text">会在后台随机弹出全屏图片</string>
+
+    <!-- toasts -->
+    <string name="toast_no_wallpaper_enabled">没有已启用的图片，请先在图库中启用</string>
+    <string name="toast_no_popup_enabled">没有已启用的图片，请先在图库中启用</string>
+    <string name="toast_no_overlay_permission">悬浮窗权限未授予，暂时无法弹出图片</string>
+    <string name="toast_photo_permission_denied">未授予照片权限，暂时无法添加图片。可在系统设置中开启后重试。</string>
+</resources>

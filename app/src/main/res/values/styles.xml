@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.RandomWallpaper" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/pink</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/pink_variant</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:statusBarColor">@color/bg_black</item>
+        <item name="android:navigationBarColor">@color/bg_black</item>
+        <item name="android:windowBackground">@color/bg_black</item>
+        <item name="android:windowAnimationStyle">@style/Theme.RandomWallpaper.WindowAnimation</item>
+    </style>
+
+    <!-- fade transition between activities -->
+    <style name="Theme.RandomWallpaper.WindowAnimation">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_fade_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_fade_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_fade_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_fade_out</item>
+    </style>
+
+    <!-- text appearances -->
+    <style name="TextAppearance.RandomWallpaper.Title" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_title</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.RandomWallpaper.CardTitle" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_card_title</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.RandomWallpaper.Body" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">@dimen/text_body</item>
+    </style>
+
+    <style name="TextAppearance.RandomWallpaper.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">@dimen/text_caption</item>
+    </style>
+
+    <!-- buttons -->
+    <style name="Widget.RandomWallpaper.Button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">@dimen/corner_button</item>
+        <item name="android:paddingLeft">@dimen/space_l</item>
+        <item name="android:paddingRight">@dimen/space_l</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/pink</item>
+        <item name="android:textAppearance">@style/TextAppearance.RandomWallpaper.Body</item>
+    </style>
+
+    <style name="Widget.RandomWallpaper.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="cornerRadius">@dimen/corner_button</item>
+        <item name="android:paddingLeft">@dimen/space_l</item>
+        <item name="android:paddingRight">@dimen/space_l</item>
+        <item name="android:textColor">@color/pink</item>
+        <item name="strokeColor">@color/pink</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.RandomWallpaper.Body</item>
+    </style>
+
+</resources>
